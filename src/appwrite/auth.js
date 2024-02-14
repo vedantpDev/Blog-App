@@ -44,7 +44,7 @@ export class AuthService {
       return await this.account.get();
     } catch (error) {
       // throw error;
-      console.log("Error getting account", error);
+      console.log("App write :: Get Account ::", error);
     }
     return null;
   }
@@ -53,7 +53,7 @@ export class AuthService {
     try {
       await this.account.deleteSessions();
     } catch (error) {
-      console.log("Error in logout", error);
+      console.log("App write :: Logout User ::", error);
     }
     return null;
   }
