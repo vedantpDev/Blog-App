@@ -1,3 +1,12 @@
 1} "appwrite": App write is a backend as a service. same as the "firebase", but "appwrite" is a open source.
 => appwrite provide authentication, database management, file storage.
 => frontend developers dont worry about the backend infrastructur.
+
+2} What is the meaning of "Vender locking"?
+=> If we remove authentication of our app, still app must run smoothly.
+
+3} What is the work of Constructor?
+=> automatically called when a new instance is created.
+=> promart goal is to initialize the state and bind methods to class instance.
+
+4} When we throw error inside try & catch block. we can not return null or any kind of error handle or functionality.
