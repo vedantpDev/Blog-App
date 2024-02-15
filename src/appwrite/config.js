@@ -1,4 +1,3 @@
-import { wait } from "@testing-library/user-event/dist/utils";
 import config from "../config/config";
 import { Client, ID, Databases, Storage, Query } from "appwrite";
 
