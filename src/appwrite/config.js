@@ -48,7 +48,7 @@ export class Service {
       );
       return true;
     } catch (error) {
-      log("Appwrite service :: Delete Post ::", error);
+      console.log("Appwrite service :: Delete Post ::", error);
       return false;
     }
   }

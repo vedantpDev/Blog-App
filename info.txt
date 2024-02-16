@@ -10,3 +10,9 @@
 => promart goal is to initialize the state and bind methods to class instance.
 
 4} When we throw error inside try & catch block. we can not return null or any kind of error handle or functionality.
+
+5} Use of ForwordRef component:
+
+6} react hook form: 
+=> handleSubmit (event) => is a method to help the submit the form. we have to pass our function which will process the further.
+we have to pass a method as params in "handleSubmit", so that all the form data will be presented in the function param which we pass inside "handleSubmit".
