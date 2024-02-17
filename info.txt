@@ -16,3 +16,9 @@
 6} react hook form: 
 => handleSubmit (event) => is a method to help the submit the form. we have to pass our function which will process the further.
 we have to pass a method as params in "handleSubmit", so that all the form data will be presented in the function param which we pass inside "handleSubmit".
+
+7} How can we optimize method which is used inside "useEffect".
+=> at the end of the "useEffect" write this code,
+return () => {
+      methodName.unsubscribe();
+    };
