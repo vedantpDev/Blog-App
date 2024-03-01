@@ -11,6 +11,8 @@ import Select from "./Select";
 import Signup from "./Signup";
 import Login from "./Login";
 import RTE from "./RTE";
+import PostForm from "./postForm/PostForm";
+import AuthLayout from "../components/AuthLayout";
 
 export {
   Input,
@@ -26,4 +28,6 @@ export {
   Login,
   Protected,
   RTE,
+  PostForm,
+  AuthLayout,
 };
